@@ -69,15 +69,18 @@ namespace CS4500HW1
 
             if(!File.Exists(filePath))
             {
-                using (FileStream fs = File.Create(filePath)) ;
-                if (new FileInfo(filePath).Length == 0)
+                using (FileStream fs = File.Create(filePath))
                 {
-                    using (StreamWriter sw = new StreamWriter(filePath))
+                    if (new FileInfo(filePath).Length == 0)
                     {
-                        sw.Write("0");
-                    }
+                        using (StreamWriter sw = new StreamWriter(filePath))
+                        {
+                            sw.Write("0");
+                        }
 
+                    }
                 }
+                
             }
         }
         private void InitializeValueDropdowns()
