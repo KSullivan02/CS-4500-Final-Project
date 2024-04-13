@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_133fd202e605ee1e39905ff48668f757" kind="dir">
+    <compoundname>C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1</compoundname>
+    <innerdir refid="dir_4bee71431afb1a1cd3e4b3ac4f78c9ac">C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Properties</innerdir>
+    <innerfile refid="_card_8cs">Card.cs</innerfile>
+    <innerfile refid="_deck_8cs">Deck.cs</innerfile>
+    <innerfile refid="_draw_card_8cs">DrawCard.cs</innerfile>
+    <innerfile refid="_draw_card_8_designer_8cs">DrawCard.Designer.cs</innerfile>
+    <innerfile refid="_program_8cs">Program.cs</innerfile>
+    <innerfile refid="_startup_form_8cs">StartupForm.cs</innerfile>
+    <innerfile refid="_startup_form_8_designer_8cs">StartupForm.Designer.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/"/>
+  </compounddef>
+</doxygen>

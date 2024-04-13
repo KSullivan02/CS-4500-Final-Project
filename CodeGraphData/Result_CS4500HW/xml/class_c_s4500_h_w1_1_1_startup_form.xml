@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_s4500_h_w1_1_1_startup_form" kind="class" prot="public">
+    <compoundname>CS4500HW1::StartupForm</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Form</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_s4500_h_w1_1_1_startup_form_1a490b078911f53f0977f6dc76bba8d07d" prot="private" static="no" mutable="no">
+        <type>System.ComponentModel.IContainer</type>
+        <definition>System.ComponentModel.IContainer CS4500HW1.StartupForm.components</definition>
+        <argsstring></argsstring>
+        <name>components</name>
+        <initializer>= null</initializer>
+        <briefdescription>
+<para>Required designer variable. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.Designer.cs" line="10" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.Designer.cs" bodystart="10" bodyend="-1"/>
+        <referencedby refid="class_c_s4500_h_w1_1_1_startup_form_1a70478eb7c124bb834ba56cd414aeaf7f" compoundref="_startup_form_8_designer_8cs" startline="16" endline="23">CS4500HW1.StartupForm.Dispose</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_s4500_h_w1_1_1_startup_form_1ab8ff7f7116988c40b03ad1500d357bef" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Button</type>
+        <definition>System.Windows.Forms.Button CS4500HW1.StartupForm.NextBtn</definition>
+        <argsstring></argsstring>
+        <name>NextBtn</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.Designer.cs" line="101" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.Designer.cs" bodystart="101" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_s4500_h_w1_1_1_startup_form_1af37e327c043fa97333a15148169d80ab" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label CS4500HW1.StartupForm.purposeTitle</definition>
+        <argsstring></argsstring>
+        <name>purposeTitle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.Designer.cs" line="102" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.Designer.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_s4500_h_w1_1_1_startup_form_1aea8c2120298c78d9dd911ce4da357d8b" prot="private" static="no" mutable="no">
+        <type>System.Windows.Forms.Label</type>
+        <definition>System.Windows.Forms.Label CS4500HW1.StartupForm.label1</definition>
+        <argsstring></argsstring>
+        <name>label1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.Designer.cs" line="103" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.Designer.cs" bodystart="103" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_s4500_h_w1_1_1_startup_form_1aa2c1423fabff07639904e28c005507d3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CS4500HW1.StartupForm.StartupForm</definition>
+        <argsstring>()</argsstring>
+        <name>StartupForm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.cs" line="15" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.cs" bodystart="15" bodyend="18"/>
+        <references refid="class_c_s4500_h_w1_1_1_startup_form_1a2fd22ef4b69d6efb50245d7a2d8e84f4" compoundref="_startup_form_8_designer_8cs" startline="31" endline="97">CS4500HW1.StartupForm.InitializeComponent</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_s4500_h_w1_1_1_startup_form_1a54fccd1b2dc52eff66a23726ed35cdee" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CS4500HW1.StartupForm.NextBtn_Click</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>NextBtn_Click</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.cs" line="20" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.cs" bodystart="20" bodyend="25"/>
+      </memberdef>
+      <memberdef kind="function" id="class_c_s4500_h_w1_1_1_startup_form_1a2fd22ef4b69d6efb50245d7a2d8e84f4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CS4500HW1.StartupForm.InitializeComponent</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeComponent</name>
+        <briefdescription>
+<para>Required method for Designer support - do not modify the contents of this method with the code editor. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.Designer.cs" line="31" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.Designer.cs" bodystart="31" bodyend="97"/>
+        <referencedby refid="class_c_s4500_h_w1_1_1_startup_form_1aa2c1423fabff07639904e28c005507d3" compoundref="_startup_form_8cs" startline="15" endline="18">CS4500HW1.StartupForm.StartupForm</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_c_s4500_h_w1_1_1_startup_form_1a70478eb7c124bb834ba56cd414aeaf7f" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void CS4500HW1.StartupForm.Dispose</definition>
+        <argsstring>(bool disposing)</argsstring>
+        <name>Dispose</name>
+        <param>
+          <type>bool</type>
+          <declname>disposing</declname>
+        </param>
+        <briefdescription>
+<para>Clean up any resources being used. </para>        </briefdescription>
+        <detaileddescription>
+<para><parameterlist kind="param"><parameteritem>
+<parameternamelist>
+<parametername>disposing</parametername>
+</parameternamelist>
+<parameterdescription>
+<para>true if managed resources should be disposed; otherwise, false.</para></parameterdescription>
+</parameteritem>
+</parameterlist>
+</para>        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.Designer.cs" line="16" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.Designer.cs" bodystart="16" bodyend="23"/>
+        <references refid="class_c_s4500_h_w1_1_1_startup_form_1a490b078911f53f0977f6dc76bba8d07d" compoundref="_startup_form_8_designer_8cs" startline="10">CS4500HW1.StartupForm.components</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="15">
+        <label>Form</label>
+      </node>
+      <node id="14">
+        <label>CS4500HW1.StartupForm</label>
+        <link refid="class_c_s4500_h_w1_1_1_startup_form"/>
+        <childnode refid="15" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="17">
+        <label>Form</label>
+      </node>
+      <node id="16">
+        <label>CS4500HW1.StartupForm</label>
+        <link refid="class_c_s4500_h_w1_1_1_startup_form"/>
+        <childnode refid="17" relation="public-inheritance">
+        </childnode>
+        <childnode refid="18" relation="usage">
+          <edgelabel>label1</edgelabel>
+          <edgelabel>NextBtn</edgelabel>
+          <edgelabel>components</edgelabel>
+          <edgelabel>purposeTitle</edgelabel>
+        </childnode>
+      </node>
+      <node id="18">
+        <label>System</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.cs" line="14" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/StartupForm.cs" bodystart="13" bodyend="26"/>
+    <listofallmembers>
+      <member refid="class_c_s4500_h_w1_1_1_startup_form_1a490b078911f53f0977f6dc76bba8d07d" prot="private" virt="non-virtual"><scope>CS4500HW1::StartupForm</scope><name>components</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_startup_form_1a70478eb7c124bb834ba56cd414aeaf7f" prot="protected" virt="non-virtual"><scope>CS4500HW1::StartupForm</scope><name>Dispose</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_startup_form_1a2fd22ef4b69d6efb50245d7a2d8e84f4" prot="private" virt="non-virtual"><scope>CS4500HW1::StartupForm</scope><name>InitializeComponent</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_startup_form_1aea8c2120298c78d9dd911ce4da357d8b" prot="private" virt="non-virtual"><scope>CS4500HW1::StartupForm</scope><name>label1</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_startup_form_1ab8ff7f7116988c40b03ad1500d357bef" prot="private" virt="non-virtual"><scope>CS4500HW1::StartupForm</scope><name>NextBtn</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_startup_form_1a54fccd1b2dc52eff66a23726ed35cdee" prot="private" virt="non-virtual"><scope>CS4500HW1::StartupForm</scope><name>NextBtn_Click</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_startup_form_1af37e327c043fa97333a15148169d80ab" prot="private" virt="non-virtual"><scope>CS4500HW1::StartupForm</scope><name>purposeTitle</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_startup_form_1aa2c1423fabff07639904e28c005507d3" prot="public" virt="non-virtual"><scope>CS4500HW1::StartupForm</scope><name>StartupForm</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

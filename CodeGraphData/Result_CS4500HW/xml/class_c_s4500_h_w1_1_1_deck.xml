@@ -1,0 +1,195 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_s4500_h_w1_1_1_deck" kind="class" prot="public">
+    <compoundname>CS4500HW1::Deck</compoundname>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_c_s4500_h_w1_1_1_deck_1a9f664e87621bfddad542fc39cfbd406a" prot="private" static="no" mutable="no">
+        <type>List&lt; <ref refid="class_c_s4500_h_w1_1_1_card" kindref="compound">Card</ref> &gt;</type>
+        <definition>List&lt;Card&gt; CS4500HW1.Deck.cards</definition>
+        <argsstring></argsstring>
+        <name>cards</name>
+        <initializer>= new List&lt;<ref refid="class_c_s4500_h_w1_1_1_card" kindref="compound">Card</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" line="19" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_s4500_h_w1_1_1_deck_1afb132d2ba238db84d16fce6e434f0148" prot="private" static="no" mutable="no">
+        <type>Random</type>
+        <definition>Random CS4500HW1.Deck.random</definition>
+        <argsstring></argsstring>
+        <name>random</name>
+        <initializer>= new Random()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" line="20" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_s4500_h_w1_1_1_deck_1a7984563980f3b5c14bb5d6bda4df37d7" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CS4500HW1.Deck.logPath</definition>
+        <argsstring></argsstring>
+        <name>logPath</name>
+        <initializer>= Application.StartupPath + &quot;CardsDealt.txt&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" line="21" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_c_s4500_h_w1_1_1_deck_1a5d2e64732a096a9a7aefd993f5712ef8" compoundref="_deck_8cs" startline="76" endline="128">CS4500HW1.Deck.DealSelectedCards</referencedby>
+        <referencedby refid="class_c_s4500_h_w1_1_1_deck_1a213d4052cd481e7a7ffe10dee33ac94c" compoundref="_deck_8cs" startline="30" endline="51">CS4500HW1.Deck.InitializeDeck</referencedby>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_s4500_h_w1_1_1_deck_1aaf75ad2f310633e4c0b40391c15536d5" prot="private" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CS4500HW1.Deck.outlog</definition>
+        <argsstring></argsstring>
+        <name>outlog</name>
+        <initializer>= &quot;&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" line="22" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" bodystart="22" bodyend="-1"/>
+        <referencedby refid="class_c_s4500_h_w1_1_1_deck_1a5d2e64732a096a9a7aefd993f5712ef8" compoundref="_deck_8cs" startline="76" endline="128">CS4500HW1.Deck.DealSelectedCards</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_s4500_h_w1_1_1_deck_1a5947e14e605fee218a80efb1df3f9bbd" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CS4500HW1.Deck.Outlog</definition>
+        <argsstring></argsstring>
+        <name>Outlog</name>
+        <initializer>=&gt; <ref refid="class_c_s4500_h_w1_1_1_deck_1aaf75ad2f310633e4c0b40391c15536d5" kindref="member">outlog</ref></initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" line="23" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_s4500_h_w1_1_1_deck_1a68d7659d2199b322c89cee7a8e223a7a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CS4500HW1.Deck.Deck</definition>
+        <argsstring>()</argsstring>
+        <name>Deck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" line="25" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" bodystart="25" bodyend="28"/>
+        <references refid="class_c_s4500_h_w1_1_1_deck_1a213d4052cd481e7a7ffe10dee33ac94c" compoundref="_deck_8cs" startline="30" endline="51">CS4500HW1.Deck.InitializeDeck</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_s4500_h_w1_1_1_deck_1a5d2e64732a096a9a7aefd993f5712ef8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>List&lt; <ref refid="class_c_s4500_h_w1_1_1_card" kindref="compound">Card</ref> &gt;</type>
+        <definition>List&lt;Card&gt; CS4500HW1.Deck.DealSelectedCards</definition>
+        <argsstring>(string[] selectedSuits, string[] selectedValues)</argsstring>
+        <name>DealSelectedCards</name>
+        <param>
+          <type>string[]</type>
+          <declname>selectedSuits</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>selectedValues</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" line="76" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" bodystart="76" bodyend="128"/>
+        <references refid="class_c_s4500_h_w1_1_1_deck_1a7984563980f3b5c14bb5d6bda4df37d7" compoundref="_deck_8cs" startline="21">CS4500HW1.Deck.logPath</references>
+        <references refid="class_c_s4500_h_w1_1_1_deck_1a9ef50231dff075e1da5898fd195f8628" compoundref="_deck_8cs" startline="130" endline="140">CS4500HW1.Deck.MapFaceCardValue</references>
+        <references refid="class_c_s4500_h_w1_1_1_deck_1aaf75ad2f310633e4c0b40391c15536d5" compoundref="_deck_8cs" startline="22">CS4500HW1.Deck.outlog</references>
+        <references refid="class_c_s4500_h_w1_1_1_card_1a2cc38f8e30d3de45e561dc941d1ff36b" compoundref="_card_8cs" startline="15">CS4500HW1.Card.Suit</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_c_s4500_h_w1_1_1_deck_1a213d4052cd481e7a7ffe10dee33ac94c" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void CS4500HW1.Deck.InitializeDeck</definition>
+        <argsstring>()</argsstring>
+        <name>InitializeDeck</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" line="30" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" bodystart="30" bodyend="51"/>
+        <references refid="class_c_s4500_h_w1_1_1_deck_1aaef4314b1f96da9139949c3a893f3b06" compoundref="_deck_8cs" startline="55" endline="71">CS4500HW1.Deck.LoadCardImage</references>
+        <references refid="class_c_s4500_h_w1_1_1_deck_1a7984563980f3b5c14bb5d6bda4df37d7" compoundref="_deck_8cs" startline="21">CS4500HW1.Deck.logPath</references>
+        <referencedby refid="class_c_s4500_h_w1_1_1_deck_1a68d7659d2199b322c89cee7a8e223a7a" compoundref="_deck_8cs" startline="25" endline="28">CS4500HW1.Deck.Deck</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_s4500_h_w1_1_1_deck_1aaef4314b1f96da9139949c3a893f3b06" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>Image</type>
+        <definition>Image CS4500HW1.Deck.LoadCardImage</definition>
+        <argsstring>(string imageName)</argsstring>
+        <name>LoadCardImage</name>
+        <param>
+          <type>string</type>
+          <declname>imageName</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" line="55" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" bodystart="55" bodyend="71"/>
+        <referencedby refid="class_c_s4500_h_w1_1_1_deck_1a213d4052cd481e7a7ffe10dee33ac94c" compoundref="_deck_8cs" startline="30" endline="51">CS4500HW1.Deck.InitializeDeck</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_c_s4500_h_w1_1_1_deck_1a9ef50231dff075e1da5898fd195f8628" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CS4500HW1.Deck.MapFaceCardValue</definition>
+        <argsstring>(string value)</argsstring>
+        <name>MapFaceCardValue</name>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" line="130" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" bodystart="130" bodyend="140"/>
+        <referencedby refid="class_c_s4500_h_w1_1_1_deck_1a5d2e64732a096a9a7aefd993f5712ef8" compoundref="_deck_8cs" startline="76" endline="128">CS4500HW1.Deck.DealSelectedCards</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" line="18" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Deck.cs" bodystart="17" bodyend="142"/>
+    <listofallmembers>
+      <member refid="class_c_s4500_h_w1_1_1_deck_1a9f664e87621bfddad542fc39cfbd406a" prot="private" virt="non-virtual"><scope>CS4500HW1::Deck</scope><name>cards</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_deck_1a5d2e64732a096a9a7aefd993f5712ef8" prot="public" virt="non-virtual"><scope>CS4500HW1::Deck</scope><name>DealSelectedCards</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_deck_1a68d7659d2199b322c89cee7a8e223a7a" prot="public" virt="non-virtual"><scope>CS4500HW1::Deck</scope><name>Deck</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_deck_1a213d4052cd481e7a7ffe10dee33ac94c" prot="private" virt="non-virtual"><scope>CS4500HW1::Deck</scope><name>InitializeDeck</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_deck_1aaef4314b1f96da9139949c3a893f3b06" prot="private" virt="non-virtual"><scope>CS4500HW1::Deck</scope><name>LoadCardImage</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_deck_1a7984563980f3b5c14bb5d6bda4df37d7" prot="private" virt="non-virtual"><scope>CS4500HW1::Deck</scope><name>logPath</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_deck_1a9ef50231dff075e1da5898fd195f8628" prot="private" virt="non-virtual"><scope>CS4500HW1::Deck</scope><name>MapFaceCardValue</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_deck_1a5947e14e605fee218a80efb1df3f9bbd" prot="public" virt="non-virtual"><scope>CS4500HW1::Deck</scope><name>Outlog</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_deck_1aaf75ad2f310633e4c0b40391c15536d5" prot="private" virt="non-virtual"><scope>CS4500HW1::Deck</scope><name>outlog</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_deck_1afb132d2ba238db84d16fce6e434f0148" prot="private" virt="non-virtual"><scope>CS4500HW1::Deck</scope><name>random</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

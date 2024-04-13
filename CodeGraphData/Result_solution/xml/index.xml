@@ -1,0 +1,168 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygenindex xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="index.xsd" version="1.8.6">
+  <compound refid="class_c_s4500_h_w1_1_1_card" kind="class"><name>CS4500HW1::Card</name>
+    <member refid="class_c_s4500_h_w1_1_1_card_1a2cc38f8e30d3de45e561dc941d1ff36b" kind="property"><name>Suit</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_card_1ab067fc652eb7bac3fad8e89255bab530" kind="property"><name>Value</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_card_1a24b7a696a8860a28663ae2bf37c19e7e" kind="property"><name>CardImage</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_card_1ad8c0aa123e5c25da1aba2842c2666f14" kind="variable"><name>CardOut</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_card_1a48c3f2075fa7d421fc4276bc56ff9460" kind="function"><name>Card</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_card_1ae7c8c734c9cc5c2b691d10e3396c0197" kind="function"><name>Log</name></member>
+  </compound>
+  <compound refid="class_c_s4500_h_w1_1_1_deck" kind="class"><name>CS4500HW1::Deck</name>
+    <member refid="class_c_s4500_h_w1_1_1_deck_1a9f664e87621bfddad542fc39cfbd406a" kind="variable"><name>cards</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_deck_1afb132d2ba238db84d16fce6e434f0148" kind="variable"><name>random</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_deck_1a7984563980f3b5c14bb5d6bda4df37d7" kind="variable"><name>logPath</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_deck_1aaf75ad2f310633e4c0b40391c15536d5" kind="variable"><name>outlog</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_deck_1a5947e14e605fee218a80efb1df3f9bbd" kind="variable"><name>Outlog</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_deck_1a68d7659d2199b322c89cee7a8e223a7a" kind="function"><name>Deck</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_deck_1a5d2e64732a096a9a7aefd993f5712ef8" kind="function"><name>DealSelectedCards</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_deck_1a213d4052cd481e7a7ffe10dee33ac94c" kind="function"><name>InitializeDeck</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_deck_1aaef4314b1f96da9139949c3a893f3b06" kind="function"><name>LoadCardImage</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_deck_1a9ef50231dff075e1da5898fd195f8628" kind="function"><name>MapFaceCardValue</name></member>
+  </compound>
+  <compound refid="class_c_s4500_h_w1_1_1_draw_card" kind="class"><name>CS4500HW1::DrawCard</name>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1afe6c9d4eca33ea9452d89b480019d5c4" kind="variable"><name>deck</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1aac343b0d37b0f464c66c49179c7c9378" kind="variable"><name>selectedPictureBoxes</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1aa8d72df99ef43f07e4bdc5aa926f7036" kind="variable"><name>selectedSuits</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a7fdec5ad70067bcf66890ffed035ac28" kind="variable"><name>selectedValues</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a51eaedee8840be7587fe14eb6cd331a1" kind="variable"><name>components</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1aa07db87170e8014ade4852e47e46aedc" kind="variable"><name>DealBtn</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a89bef4e73961d143598c138f80dc00d9" kind="variable"><name>Quit</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a649c983826e5e05e402e657d7abe894a" kind="variable"><name>pictureBox1</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1abec1ff72f041997f6987d74bab0905f0" kind="variable"><name>pictureBox2</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1ab8ec91b4594dd867e960c0aedda9de9f" kind="variable"><name>pictureBox3</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a8a242ef938fbe72c0cf3703a68750a77" kind="variable"><name>pictureBox4</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a5ac9ec104d7d08879d3b3e3e45584b05" kind="variable"><name>label1</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1afc95f228efbfbc77ab808bf49d07b875" kind="variable"><name>comboBox1</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a0506452f903a9eac0a5764facfd5ab87" kind="variable"><name>comboBox2</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1af1eaf3faac8decc0077305eba8d72c32" kind="variable"><name>comboBox3</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a4288f52b823c98869e6a98c28f698e30" kind="variable"><name>comboBox4</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1af89842fb30f278b80debf6fb8c401b0b" kind="variable"><name>pictureBoxC1</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1aa4ad335586a6b170366d4ff942b4d75e" kind="variable"><name>pictureBoxD1</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a837636a1e44337e173a5396857b045b0" kind="variable"><name>pictureBox17</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a3411f76b09ddcfbafc726c307af77f02" kind="variable"><name>pictureBox18</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a069cbb2d5d3d8a454d11bf35c1330942" kind="variable"><name>pictureBox19</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a23d143dd4c756de7ad3a6107b7fbbab9" kind="variable"><name>pictureBoxH1</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a01a417471dae878b6695fdc3545bba11" kind="variable"><name>pictureBoxS1</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a4357196e40d5daaaef93b963129934fb" kind="variable"><name>pictureBoxS2</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1abf197ab4aa7082f3b6262e2d625a582b" kind="variable"><name>pictureBoxC2</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a5f5043aa5eccb8379afdc884d7ca29ff" kind="variable"><name>pictureBoxD2</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a37789cf8621ba46c4be54f685240c4f1" kind="variable"><name>pictureBoxH2</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a78fd4ac202d3cd4d55eec48c2bbfd333" kind="variable"><name>pictureBoxS3</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a050d5fb18de259498e6625d64cd05aee" kind="variable"><name>pictureBoxC3</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a33e67d36f2cbff6ef51930fb1475791e" kind="variable"><name>pictureBoxD3</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a24fb505135e1d0c366cd64c3f6a44c8b" kind="variable"><name>pictureBoxH3</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a0bc69eabcd5f3a44d3145a8a678ba231" kind="variable"><name>pictureBoxS4</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a6ec7915392d4e1d0627c5307cf93ae71" kind="variable"><name>pictureBoxC4</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a7d8c132c30c99fd00e511e5d753ed16e" kind="variable"><name>pictureBoxD4</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a829c76d557eddb762a59e2ab3991449e" kind="variable"><name>pictureBoxH4</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1ac394298f941d496e64a2f9ccd0990a5d" kind="variable"><name>textBoxLog</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1ad212dad896ea75f638c1c927282167aa" kind="variable"><name>card1Confirm</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a0f1cf636ea643ed160a08b3fb67b914b" kind="variable"><name>card2Confirm</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1ac12f0f5eec8e6752bdd8081c1a4810b9" kind="variable"><name>card3Confirm</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a6043e295f72d1238353c4be1435fa838" kind="variable"><name>card4Confirm</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1ae7600d5049cb6e24b79d8f9e21379b32" kind="variable"><name>NextRoundBtn</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a0006398b8901652358c9a1e3a014c739" kind="function"><name>DrawCard</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a6c85d8da2694e342ea251573b7a6d36b" kind="function"><name>InitializeValueDropdowns</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a96881620470493c8b83e2c38cb4bb5d6" kind="function"><name>ComboBox_SelectedIndexChanged</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1af50ab6b60099ac657170dcd06b887773" kind="function"><name>card1Confirm_Click</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1ab290b03f5fe2c74344aa84e114436b30" kind="function"><name>card2Confirm_Click</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a221c3c88838d0e714e62ab3abe445af5" kind="function"><name>card3Confirm_Click</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a3f7a3795517785f7709da3747c22c7f3" kind="function"><name>card4Confirm_Click</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a10b7f18e8db72c814a1111ad8e34199f" kind="function"><name>DisplaySelectedCard</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1ab053bfca525f8a11deb40817cda8f918" kind="function"><name>quit_Click</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1af66af9a615c7429cf123ad984d20dcdc" kind="function"><name>draw_Click</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1afe73a0a0244380c69618bde557100691" kind="function"><name>NextRoundBtn_Click</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1ab8f8a2e2ac1f548e8e65b789fc3a3627" kind="function"><name>ClearAllSelectionsAndDropdowns</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1aa54211d6df9e291dc5f3a435ab771916" kind="function"><name>HighlightCardPictureBox</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a65798d7e088972a87628dfdd27ff9719" kind="function"><name>PictureBox_CustomPaint</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1ae30090936af2467609904f6514de1a21" kind="function"><name>PictureBoxSuit_Click</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a2c9e97ecc1a4934c7808b1a9d17c54cb" kind="function"><name>ClearPreviousSelection</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a348e8e67ed587a19481fe48ec8196f34" kind="function"><name>HighlightPictureBox</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a15180f27e6959f8e7286da96379fc5d5" kind="function"><name>GetSuitFromInitial</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a000921503ace9eb936fd51e072744c57" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_draw_card_1a990cfaf7821f093b52b7bbe54eeb472e" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="class_c_s4500_h_w1_1_1_program" kind="class"><name>CS4500HW1::Program</name>
+    <member refid="class_c_s4500_h_w1_1_1_program_1a403c49782c8245cc36ee587938461efe" kind="function"><name>Main</name></member>
+  </compound>
+  <compound refid="class_c_s4500_h_w_1_1_properties_1_1_resources" kind="class"><name>CS4500HW::Properties::Resources</name>
+    <member refid="class_c_s4500_h_w_1_1_properties_1_1_resources_1a901483947e21da2b69cf3f2c290e3f68" kind="variable"><name>resourceMan</name></member>
+    <member refid="class_c_s4500_h_w_1_1_properties_1_1_resources_1af007519248f44c5eb83fecc01a787323" kind="variable"><name>resourceCulture</name></member>
+    <member refid="class_c_s4500_h_w_1_1_properties_1_1_resources_1ad7c59efa381e67f136946466aa75c47f" kind="property"><name>ResourceManager</name></member>
+    <member refid="class_c_s4500_h_w_1_1_properties_1_1_resources_1ae948329e1e0303456fc3fbb2db1e7fdc" kind="property"><name>Culture</name></member>
+    <member refid="class_c_s4500_h_w_1_1_properties_1_1_resources_1a01360a0f197c460e2583cc923c8685f5" kind="function"><name>Resources</name></member>
+  </compound>
+  <compound refid="class_c_s4500_h_w1_1_1_startup_form" kind="class"><name>CS4500HW1::StartupForm</name>
+    <member refid="class_c_s4500_h_w1_1_1_startup_form_1a490b078911f53f0977f6dc76bba8d07d" kind="variable"><name>components</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_startup_form_1ab8ff7f7116988c40b03ad1500d357bef" kind="variable"><name>NextBtn</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_startup_form_1af37e327c043fa97333a15148169d80ab" kind="variable"><name>purposeTitle</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_startup_form_1aea8c2120298c78d9dd911ce4da357d8b" kind="variable"><name>label1</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_startup_form_1aa2c1423fabff07639904e28c005507d3" kind="function"><name>StartupForm</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_startup_form_1a54fccd1b2dc52eff66a23726ed35cdee" kind="function"><name>NextBtn_Click</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_startup_form_1a2fd22ef4b69d6efb50245d7a2d8e84f4" kind="function"><name>InitializeComponent</name></member>
+    <member refid="class_c_s4500_h_w1_1_1_startup_form_1a70478eb7c124bb834ba56cd414aeaf7f" kind="function"><name>Dispose</name></member>
+  </compound>
+  <compound refid="namespace_c_s4500_h_w" kind="namespace"><name>CS4500HW</name>
+  </compound>
+  <compound refid="namespace_c_s4500_h_w1" kind="namespace"><name>CS4500HW1</name>
+  </compound>
+  <compound refid="namespace_c_s4500_h_w_1_1_properties" kind="namespace"><name>CS4500HW::Properties</name>
+  </compound>
+  <compound refid="namespace_system" kind="namespace"><name>System</name>
+  </compound>
+  <compound refid="namespace_system_1_1_collections_1_1_generic" kind="namespace"><name>System::Collections::Generic</name>
+  </compound>
+  <compound refid="namespace_system_1_1_component_model" kind="namespace"><name>System::ComponentModel</name>
+  </compound>
+  <compound refid="namespace_system_1_1_data" kind="namespace"><name>System::Data</name>
+  </compound>
+  <compound refid="namespace_system_1_1_drawing" kind="namespace"><name>System::Drawing</name>
+  </compound>
+  <compound refid="namespace_system_1_1_i_o" kind="namespace"><name>System::IO</name>
+  </compound>
+  <compound refid="namespace_system_1_1_linq" kind="namespace"><name>System::Linq</name>
+  </compound>
+  <compound refid="namespace_system_1_1_reflection" kind="namespace"><name>System::Reflection</name>
+  </compound>
+  <compound refid="namespace_system_1_1_security_1_1_cryptography_1_1_x509_certificates" kind="namespace"><name>System::Security::Cryptography::X509Certificates</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text" kind="namespace"><name>System::Text</name>
+  </compound>
+  <compound refid="namespace_system_1_1_text_1_1_regular_expressions" kind="namespace"><name>System::Text::RegularExpressions</name>
+  </compound>
+  <compound refid="namespace_system_1_1_threading_1_1_tasks" kind="namespace"><name>System::Threading::Tasks</name>
+  </compound>
+  <compound refid="namespace_system_1_1_windows_1_1_forms" kind="namespace"><name>System::Windows::Forms</name>
+  </compound>
+  <compound refid="_card_8cs" kind="file"><name>Card.cs</name>
+  </compound>
+  <compound refid="_deck_8cs" kind="file"><name>Deck.cs</name>
+  </compound>
+  <compound refid="_draw_card_8cs" kind="file"><name>DrawCard.cs</name>
+  </compound>
+  <compound refid="_draw_card_8_designer_8cs" kind="file"><name>DrawCard.Designer.cs</name>
+  </compound>
+  <compound refid="_program_8cs" kind="file"><name>Program.cs</name>
+  </compound>
+  <compound refid="_resources_8_designer_8cs" kind="file"><name>Resources.Designer.cs</name>
+  </compound>
+  <compound refid="_startup_form_8cs" kind="file"><name>StartupForm.cs</name>
+  </compound>
+  <compound refid="_startup_form_8_designer_8cs" kind="file"><name>StartupForm.Designer.cs</name>
+  </compound>
+  <compound refid="dir_0cf2412eae55bd7e0ed85ab5e4e5ec0e" kind="dir"><name>C:/Users/ikill/Source/Repos/CS4500HW</name>
+  </compound>
+  <compound refid="dir_133fd202e605ee1e39905ff48668f757" kind="dir"><name>C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1</name>
+  </compound>
+  <compound refid="dir_a3cfe1e773892a7b5a6e05f502f656d4" kind="dir"><name>C:/Users/ikill</name>
+  </compound>
+  <compound refid="dir_4bee71431afb1a1cd3e4b3ac4f78c9ac" kind="dir"><name>C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Properties</name>
+  </compound>
+  <compound refid="dir_41b5a1064de95b6a06459f4f1618728e" kind="dir"><name>C:/Users/ikill/Source/Repos</name>
+  </compound>
+  <compound refid="dir_4846f05b1eaf975ebbb988e0657244c2" kind="dir"><name>C:/Users/ikill/Source</name>
+  </compound>
+  <compound refid="dir_8ceffd4ee35c3518d4e8bdc7e638efe8" kind="dir"><name>C:/Users</name>
+  </compound>
+</doxygenindex>

@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_s4500_h_w1_1_1_card" kind="class" prot="public">
+    <compoundname>CS4500HW1::Card</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_c_s4500_h_w1_1_1_card_1a2cc38f8e30d3de45e561dc941d1ff36b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string CS4500HW1.Card.Suit</definition>
+        <argsstring></argsstring>
+        <name>Suit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Card.cs" line="15" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Card.cs" bodystart="15" bodyend="-1"/>
+        <referencedby refid="class_c_s4500_h_w1_1_1_card_1a48c3f2075fa7d421fc4276bc56ff9460" compoundref="_card_8cs" startline="22" endline="56">CS4500HW1.Card.Card</referencedby>
+        <referencedby refid="class_c_s4500_h_w1_1_1_deck_1a5d2e64732a096a9a7aefd993f5712ef8" compoundref="_deck_8cs" startline="76" endline="128">CS4500HW1.Deck.DealSelectedCards</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_c_s4500_h_w1_1_1_card_1ab067fc652eb7bac3fad8e89255bab530" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string CS4500HW1.Card.Value</definition>
+        <argsstring></argsstring>
+        <name>Value</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Card.cs" line="16" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Card.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_c_s4500_h_w1_1_1_card_1a48c3f2075fa7d421fc4276bc56ff9460" compoundref="_card_8cs" startline="22" endline="56">CS4500HW1.Card.Card</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_c_s4500_h_w1_1_1_card_1a24b7a696a8860a28663ae2bf37c19e7e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Image</type>
+        <definition>Image CS4500HW1.Card.CardImage</definition>
+        <argsstring></argsstring>
+        <name>CardImage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Card.cs" line="17" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Card.cs" bodystart="17" bodyend="-1"/>
+        <referencedby refid="class_c_s4500_h_w1_1_1_card_1a48c3f2075fa7d421fc4276bc56ff9460" compoundref="_card_8cs" startline="22" endline="56">CS4500HW1.Card.Card</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_c_s4500_h_w1_1_1_card_1ad8c0aa123e5c25da1aba2842c2666f14" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string CS4500HW1.Card.CardOut</definition>
+        <argsstring></argsstring>
+        <name>CardOut</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Card.cs" line="20" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Card.cs" bodystart="20" bodyend="-1"/>
+        <referencedby refid="class_c_s4500_h_w1_1_1_card_1a48c3f2075fa7d421fc4276bc56ff9460" compoundref="_card_8cs" startline="22" endline="56">CS4500HW1.Card.Card</referencedby>
+        <referencedby refid="class_c_s4500_h_w1_1_1_card_1ae7c8c734c9cc5c2b691d10e3396c0197" compoundref="_card_8cs" startline="59" endline="62">CS4500HW1.Card.Log</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_c_s4500_h_w1_1_1_card_1a48c3f2075fa7d421fc4276bc56ff9460" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CS4500HW1.Card.Card</definition>
+        <argsstring>(string suit, string value, Image cardImage)</argsstring>
+        <name>Card</name>
+        <param>
+          <type>string</type>
+          <declname>suit</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Image</type>
+          <declname>cardImage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Card.cs" line="22" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Card.cs" bodystart="22" bodyend="56"/>
+        <references refid="class_c_s4500_h_w1_1_1_card_1a24b7a696a8860a28663ae2bf37c19e7e" compoundref="_card_8cs" startline="17">CS4500HW1.Card.CardImage</references>
+        <references refid="class_c_s4500_h_w1_1_1_card_1ad8c0aa123e5c25da1aba2842c2666f14" compoundref="_card_8cs" startline="20">CS4500HW1.Card.CardOut</references>
+        <references refid="class_c_s4500_h_w1_1_1_card_1a2cc38f8e30d3de45e561dc941d1ff36b" compoundref="_card_8cs" startline="15">CS4500HW1.Card.Suit</references>
+        <references refid="class_c_s4500_h_w1_1_1_card_1ab067fc652eb7bac3fad8e89255bab530" compoundref="_card_8cs" startline="16">CS4500HW1.Card.Value</references>
+      </memberdef>
+      <memberdef kind="function" id="class_c_s4500_h_w1_1_1_card_1ae7c8c734c9cc5c2b691d10e3396c0197" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>string</type>
+        <definition>string CS4500HW1.Card.Log</definition>
+        <argsstring>()</argsstring>
+        <name>Log</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Card.cs" line="59" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Card.cs" bodystart="59" bodyend="62"/>
+        <references refid="class_c_s4500_h_w1_1_1_card_1ad8c0aa123e5c25da1aba2842c2666f14" compoundref="_card_8cs" startline="20">CS4500HW1.Card.CardOut</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Card.cs" line="12" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Card.cs" bodystart="11" bodyend="63"/>
+    <listofallmembers>
+      <member refid="class_c_s4500_h_w1_1_1_card_1a48c3f2075fa7d421fc4276bc56ff9460" prot="public" virt="non-virtual"><scope>CS4500HW1::Card</scope><name>Card</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_card_1a24b7a696a8860a28663ae2bf37c19e7e" prot="public" virt="non-virtual"><scope>CS4500HW1::Card</scope><name>CardImage</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_card_1ad8c0aa123e5c25da1aba2842c2666f14" prot="public" virt="non-virtual"><scope>CS4500HW1::Card</scope><name>CardOut</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_card_1ae7c8c734c9cc5c2b691d10e3396c0197" prot="public" virt="non-virtual"><scope>CS4500HW1::Card</scope><name>Log</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_card_1a2cc38f8e30d3de45e561dc941d1ff36b" prot="public" virt="non-virtual"><scope>CS4500HW1::Card</scope><name>Suit</name></member>
+      <member refid="class_c_s4500_h_w1_1_1_card_1ab067fc652eb7bac3fad8e89255bab530" prot="public" virt="non-virtual"><scope>CS4500HW1::Card</scope><name>Value</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="_program_8cs" kind="file">
+    <compoundname>Program.cs</compoundname>
+    <innerclass refid="class_c_s4500_h_w1_1_1_program" prot="public">CS4500HW1::Program</innerclass>
+    <innernamespace refid="namespace_c_s4500_h_w1">CS4500HW1</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <programlisting>
+<codeline lineno="1"><highlight class="comment">//<sp/>The<sp/>programming<sp/>language<sp/>for<sp/>this<sp/>project<sp/>is<sp/>C#</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="2"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>IDE<sp/>that<sp/>is<sp/>being<sp/>used<sp/>is<sp/>Visual<sp/>Studio<sp/>2022<sp/>for<sp/>Windows.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="3"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Installation<sp/>Instructions:<sp/>To<sp/>be<sp/>able<sp/>to<sp/>start<sp/>the<sp/>installation<sp/>process,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="4"><highlight class="normal"></highlight><highlight class="comment">//<sp/>a<sp/>monitor<sp/>that<sp/>runs<sp/>on<sp/>Windows<sp/>is<sp/>required.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="5"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Download<sp/>the<sp/>.exe<sp/>file<sp/>that<sp/>is<sp/>being<sp/>provided<sp/>for<sp/>you<sp/>to<sp/>a<sp/>new<sp/>empty<sp/>directory.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="6"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>name<sp/>of<sp/>the<sp/>directory<sp/>has<sp/>no<sp/>restrictions.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="7"><highlight class="normal"></highlight><highlight class="comment">//<sp/>In<sp/>that<sp/>same<sp/>directory,<sp/>download<sp/>the<sp/>link<sp/>for<sp/>the<sp/>card<sp/>deck.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="8"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Team<sp/>members<sp/>include<sp/>Noor<sp/>Ghazal,<sp/>Kanaan<sp/>Sullivan,<sp/>Grant<sp/>Harris,<sp/>and<sp/>Mihir<sp/>Bhakta</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="9"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Authors<sp/>of<sp/>the<sp/>code<sp/>are<sp/>primarily<sp/>Noor<sp/>Ghazal<sp/>and<sp/>Kanaan<sp/>Sullivan</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="10"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Class<sp/>name<sp/>is<sp/>CMPSCI<sp/>4500:<sp/>Intro<sp/>to<sp/>Software<sp/>Profession</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="11"><highlight class="normal"></highlight><highlight class="comment">//<sp/>Date<sp/>of<sp/>last<sp/>Commit:<sp/>March<sp/>8,<sp/>2024</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="12"><highlight class="normal"></highlight><highlight class="comment">//<sp/>The<sp/>central<sp/>data<sp/>structures<sp/>are<sp/>winforms,<sp/>which<sp/>are<sp/>used<sp/>for<sp/>displaying<sp/>messages<sp/>and<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="13"><highlight class="normal"></highlight><highlight class="comment">//<sp/>for<sp/>the<sp/>process<sp/>of<sp/>selecting<sp/>or<sp/>dealing<sp/>cards.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="14"><highlight class="normal"></highlight><highlight class="comment">//<sp/>External<sp/>files<sp/>include<sp/>images<sp/>for<sp/>all<sp/>52<sp/>cards<sp/>in<sp/>a<sp/>deck</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="15"><highlight class="normal"></highlight><highlight class="comment">//<sp/>and<sp/>the<sp/>file<sp/>CardsDealt.txt<sp/>used<sp/>to<sp/>keep<sp/>track<sp/>of<sp/>the<sp/>cards<sp/>that<sp/>were<sp/>dealt<sp/>or<sp/>chosen.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="16"><highlight class="normal"></highlight><highlight class="comment">//<sp/>This<sp/>program<sp/>lets<sp/>users<sp/>select<sp/>any<sp/>four<sp/>cards<sp/>from<sp/>one<sp/>deck<sp/>of<sp/>52<sp/>cards,</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="17"><highlight class="normal"></highlight><highlight class="comment">//<sp/>then<sp/>puts<sp/>these<sp/>cards&apos;<sp/>information<sp/>to<sp/>the<sp/>file<sp/>listed<sp/>above<sp/>and<sp/>&quot;puts&quot;<sp/>the<sp/>cards<sp/>back<sp/>into<sp/>deck</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="18"><highlight class="normal"></highlight><highlight class="comment">//<sp/>when<sp/>the<sp/>user<sp/>selects<sp/>quit<sp/>or<sp/>&quot;Confirm<sp/>4<sp/>cards&quot;,<sp/></highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="19"><highlight class="normal"></highlight><highlight class="comment">//<sp/>If<sp/>user<sp/>hits<sp/>the<sp/>&quot;confirm<sp/>4&quot;,<sp/>then<sp/>any<sp/>4<sp/>cards<sp/>out<sp/>of<sp/>52<sp/>can<sp/>be<sp/>selected<sp/>again</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="20"><highlight class="normal"></highlight><highlight class="comment">//<sp/>and<sp/>the<sp/>process<sp/>is<sp/>repeated.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="21"><highlight class="normal"></highlight><highlight class="comment">//<sp/>For<sp/>each<sp/>card<sp/>selected<sp/>select<sp/>one<sp/>of<sp/>the<sp/>boxes<sp/>containing<sp/>the<sp/>suit<sp/>to<sp/>select<sp/>the<sp/>suit</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="22"><highlight class="normal"></highlight><highlight class="comment">//<sp/>and<sp/>then<sp/>the<sp/>dropdown<sp/>must<sp/>be<sp/>used<sp/>to<sp/>enter<sp/>the<sp/>value<sp/>instead<sp/>of<sp/>typing<sp/>in<sp/>the<sp/>value.</highlight><highlight class="normal"></highlight></codeline>
+<codeline lineno="23"><highlight class="normal"></highlight></codeline>
+<codeline lineno="24"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System;</highlight></codeline>
+<codeline lineno="25"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Collections.Generic;</highlight></codeline>
+<codeline lineno="26"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Linq;</highlight></codeline>
+<codeline lineno="27"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Threading.Tasks;</highlight></codeline>
+<codeline lineno="28"><highlight class="normal"></highlight><highlight class="keyword">using</highlight><highlight class="normal"><sp/>System.Windows.Forms;</highlight></codeline>
+<codeline lineno="29"><highlight class="normal"></highlight></codeline>
+<codeline lineno="30"><highlight class="normal"></highlight><highlight class="keyword">namespace<sp/></highlight><highlight class="normal">CS4500HW1</highlight></codeline>
+<codeline lineno="31"><highlight class="normal">{</highlight></codeline>
+<codeline lineno="32" refid="class_c_s4500_h_w1_1_1_program" refkind="compound"><highlight class="normal"><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keyword">class<sp/></highlight><highlight class="normal"><ref refid="class_c_s4500_h_w1_1_1_program" kindref="compound">Program</ref></highlight></codeline>
+<codeline lineno="33"><highlight class="normal"><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="37"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>[STAThread]</highlight></codeline>
+<codeline lineno="38" refid="class_c_s4500_h_w1_1_1_program_1a403c49782c8245cc36ee587938461efe" refkind="member"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/></highlight><highlight class="keyword">static</highlight><highlight class="normal"><sp/></highlight><highlight class="keywordtype">void</highlight><highlight class="normal"><sp/><ref refid="class_c_s4500_h_w1_1_1_program_1a403c49782c8245cc36ee587938461efe" kindref="member">Main</ref>()</highlight></codeline>
+<codeline lineno="39"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>{</highlight></codeline>
+<codeline lineno="40"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Application.SetHighDpiMode(HighDpiMode.SystemAware);</highlight></codeline>
+<codeline lineno="41"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Application.EnableVisualStyles();</highlight></codeline>
+<codeline lineno="42"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Application.SetCompatibleTextRenderingDefault(</highlight><highlight class="keyword">false</highlight><highlight class="normal">);</highlight></codeline>
+<codeline lineno="43"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>Application.Run(</highlight><highlight class="keyword">new</highlight><highlight class="normal"><sp/><ref refid="class_c_s4500_h_w1_1_1_startup_form" kindref="compound">StartupForm</ref>());</highlight></codeline>
+<codeline lineno="44"><highlight class="normal"><sp/><sp/><sp/><sp/><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="45"><highlight class="normal"><sp/><sp/><sp/><sp/>}</highlight></codeline>
+<codeline lineno="46"><highlight class="normal">}</highlight></codeline>
+<codeline lineno="47"><highlight class="normal"></highlight><highlight class="comment">//<sp/>End<sp/>of<sp/>file</highlight></codeline>
+    </programlisting>
+    <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Program.cs"/>
+  </compounddef>
+</doxygen>

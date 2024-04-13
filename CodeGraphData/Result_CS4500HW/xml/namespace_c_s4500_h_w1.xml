@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_c_s4500_h_w1" kind="namespace">
+    <compoundname>CS4500HW1</compoundname>
+    <innerclass refid="class_c_s4500_h_w1_1_1_card" prot="public">CS4500HW1::Card</innerclass>
+    <innerclass refid="class_c_s4500_h_w1_1_1_deck" prot="public">CS4500HW1::Deck</innerclass>
+    <innerclass refid="class_c_s4500_h_w1_1_1_draw_card" prot="public">CS4500HW1::DrawCard</innerclass>
+    <innerclass refid="class_c_s4500_h_w1_1_1_program" prot="public">CS4500HW1::Program</innerclass>
+    <innerclass refid="class_c_s4500_h_w1_1_1_startup_form" prot="public">CS4500HW1::StartupForm</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Card.cs" line="10" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,98 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_c_s4500_h_w_1_1_properties_1_1_resources" kind="class" prot="package">
+    <compoundname>CS4500HW::Properties::Resources</compoundname>
+      <sectiondef kind="private-static-attrib">
+      <memberdef kind="variable" id="class_c_s4500_h_w_1_1_properties_1_1_resources_1a901483947e21da2b69cf3f2c290e3f68" prot="private" static="yes" mutable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager CS4500HW.Properties.Resources.resourceMan</definition>
+        <argsstring></argsstring>
+        <name>resourceMan</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Properties/Resources.Designer.cs" line="27" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Properties/Resources.Designer.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_c_s4500_h_w_1_1_properties_1_1_resources_1af007519248f44c5eb83fecc01a787323" prot="private" static="yes" mutable="no">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo CS4500HW.Properties.Resources.resourceCulture</definition>
+        <argsstring></argsstring>
+        <name>resourceCulture</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Properties/Resources.Designer.cs" line="29" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Properties/Resources.Designer.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_c_s4500_h_w_1_1_properties_1_1_resources_1ad7c59efa381e67f136946466aa75c47f" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="no">
+        <type>global::System.Resources.ResourceManager</type>
+        <definition>global::System.Resources.ResourceManager CS4500HW.Properties.Resources.ResourceManager</definition>
+        <argsstring></argsstring>
+        <name>ResourceManager</name>
+        <briefdescription>
+<para>Returns the cached ResourceManager instance used by this class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Properties/Resources.Designer.cs" line="39" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Properties/Resources.Designer.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_c_s4500_h_w_1_1_properties_1_1_resources_1ae948329e1e0303456fc3fbb2db1e7fdc" prot="package" static="yes" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>global::System.Globalization.CultureInfo</type>
+        <definition>global::System.Globalization.CultureInfo CS4500HW.Properties.Resources.Culture</definition>
+        <argsstring></argsstring>
+        <name>Culture</name>
+        <briefdescription>
+<para>Overrides the current thread&apos;s CurrentUICulture property for all resource lookups using this strongly typed resource class. </para>        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Properties/Resources.Designer.cs" line="54" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Properties/Resources.Designer.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="package-func">
+      <memberdef kind="function" id="class_c_s4500_h_w_1_1_properties_1_1_resources_1a01360a0f197c460e2583cc923c8685f5" prot="package" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>CS4500HW.Properties.Resources.Resources</definition>
+        <argsstring>()</argsstring>
+        <name>Resources</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Properties/Resources.Designer.cs" line="32" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Properties/Resources.Designer.cs" bodystart="32" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>A strongly-typed resource class, for looking up localized strings, etc. </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="13">
+        <label>CS4500HW.Properties.Resources</label>
+        <link refid="class_c_s4500_h_w_1_1_properties_1_1_resources"/>
+        <childnode refid="13" relation="usage">
+          <edgelabel>resourceMan</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Properties/Resources.Designer.cs" line="25" column="1" bodyfile="C:/Users/ikill/Source/Repos/CS4500HW/CS4500HW1/Properties/Resources.Designer.cs" bodystart="25" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_c_s4500_h_w_1_1_properties_1_1_resources_1ae948329e1e0303456fc3fbb2db1e7fdc" prot="package" virt="non-virtual"><scope>CS4500HW::Properties::Resources</scope><name>Culture</name></member>
+      <member refid="class_c_s4500_h_w_1_1_properties_1_1_resources_1af007519248f44c5eb83fecc01a787323" prot="private" virt="non-virtual"><scope>CS4500HW::Properties::Resources</scope><name>resourceCulture</name></member>
+      <member refid="class_c_s4500_h_w_1_1_properties_1_1_resources_1a901483947e21da2b69cf3f2c290e3f68" prot="private" virt="non-virtual"><scope>CS4500HW::Properties::Resources</scope><name>resourceMan</name></member>
+      <member refid="class_c_s4500_h_w_1_1_properties_1_1_resources_1ad7c59efa381e67f136946466aa75c47f" prot="package" virt="non-virtual"><scope>CS4500HW::Properties::Resources</scope><name>ResourceManager</name></member>
+      <member refid="class_c_s4500_h_w_1_1_properties_1_1_resources_1a01360a0f197c460e2583cc923c8685f5" prot="package" virt="non-virtual"><scope>CS4500HW::Properties::Resources</scope><name>Resources</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
