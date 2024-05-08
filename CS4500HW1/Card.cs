@@ -1,5 +1,5 @@
 ﻿// This makes sure that the values of 11, 12, 13, 14 are associated with J, Q, K, A respectively
-
+// 04/12/2024 no revisions needed but project now done by Kanaan Sullivan 
 using System;
 using System.Collections.Generic;
 using System.Text;

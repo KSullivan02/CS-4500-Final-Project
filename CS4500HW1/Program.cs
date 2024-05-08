@@ -25,6 +25,11 @@
 // Then the user can select Next Round or Quit. If the user selects Next Round, then the round starts new again
 // and the process is repeated.
 // The cards selected by you and the Art Dealer from previous rounds are shown in the upper right corner.
+// The user will now be able to guess cards for the pattern and be rewarded once getting it right twice
+// The user will move to the next pattern after being informed of winning twice
+// The patterns switch from 1 and gradually go up from the assigned rotation
+// Upon finishing all patterns the game will congratulate the user and present them the ability to restart or quit
+// Latest Revision - 04/12/2024 by Kanaan Sullivan
 
 using System;
 using System.Collections.Generic;

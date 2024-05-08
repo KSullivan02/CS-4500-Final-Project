@@ -71,6 +71,7 @@ namespace CS4500HW1
             this.card4Confirm = new System.Windows.Forms.Button();
             this.NextRoundBtn = new System.Windows.Forms.Button();
             this.NextPattern = new System.Windows.Forms.Button();
+            this.RestartBtn = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
@@ -493,12 +494,30 @@ namespace CS4500HW1
             this.NextPattern.Text = "Next Pattern";
             this.NextPattern.UseVisualStyleBackColor = false;
             // 
+            // RestartBtn
+            // 
+            this.RestartBtn.AccessibleDescription = "Restart Button";
+            this.RestartBtn.AccessibleName = "RestartBtn";
+            this.RestartBtn.BackColor = System.Drawing.Color.DarkGreen;
+            this.RestartBtn.FlatAppearance.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.RestartBtn.FlatAppearance.BorderSize = 2;
+            this.RestartBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.RestartBtn.Font = new System.Drawing.Font("Impact", 16F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
+            this.RestartBtn.ForeColor = System.Drawing.Color.White;
+            this.RestartBtn.Location = new System.Drawing.Point(843, 547);
+            this.RestartBtn.Name = "RestartBtn";
+            this.RestartBtn.Size = new System.Drawing.Size(200, 40);
+            this.RestartBtn.TabIndex = 46;
+            this.RestartBtn.Text = "Restart";
+            this.RestartBtn.UseVisualStyleBackColor = false;
+            // 
             // DrawCard
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(1093, 657);
+            this.Controls.Add(this.RestartBtn);
             this.Controls.Add(this.NextPattern);
             this.Controls.Add(this.NextRoundBtn);
             this.Controls.Add(this.card4Confirm);
@@ -601,6 +620,7 @@ namespace CS4500HW1
         private Button card4Confirm;
         private Button NextRoundBtn;
         private Button NextPattern;
+        private Button RestartBtn;
     }
 }
 // End of file

@@ -2,7 +2,7 @@
 // This file is for the design of selecting four cards and viewing the 4 cards
 //For the images, The background of the form is from google images while, the card backgrounds were a white box, so I had DALL-E generate one for me and I used that as the card background
 //Default winforms settings and initialization, rest were simple functions only searched syntax
-//Latest Revision: 03/22/2024 by Kanaan and Noor
+//Latest Revision: 04/12/2024 by Kanaan
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -15,6 +15,7 @@ using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.IO;
+using System.Media;
 
 namespace CS4500HW1
 {
@@ -27,8 +28,6 @@ namespace CS4500HW1
         int won = 0;
         string filePath = Application.StartupPath + "LastWon.txt";
 
-        
-        
 
         public DrawCard()
         {
@@ -61,28 +60,50 @@ namespace CS4500HW1
             comboBox3.SelectedIndexChanged += ComboBox_SelectedIndexChanged;
             comboBox4.SelectedIndexChanged += ComboBox_SelectedIndexChanged;
 
+            card1Confirm.Click += card1Confirm_Click;
+            card2Confirm.Click += card2Confirm_Click;
+            card3Confirm.Click += card3Confirm_Click;
+            card4Confirm.Click += card4Confirm_Click;
+            Quit.Click += quit_Click;
+            DealBtn.Click += draw_Click;
             NextPattern.Click += NextPattern_Click;
-
+            NextRoundBtn.Click += NextRoundBtn_Click;
+            RestartBtn.Click += restart;
             DealBtn.Visible = true;
             NextRoundBtn.Visible = false; // Hide the Next Round button initially
             NextPattern.Visible = false; // Hide the next pattern button
+            RestartBtn.Visible = false; // Hides the restart button
 
+            // Creat the file if it is not created, otherwise open the files and check for empty or add 0
             if(!File.Exists(filePath))
             {
                 using (FileStream fs = File.Create(filePath))
                 {
-                    if (new FileInfo(filePath).Length == 0)
-                    {
-                        using (StreamWriter sw = new StreamWriter(filePath))
-                        {
-                            sw.Write("0");
-                        }
-
-                    }
+                   
                 }
                 
             }
+
+            if (new FileInfo(filePath).Length == 0)
+            {
+                using (StreamWriter sw = new StreamWriter(filePath))
+                {
+                    sw.Write("0");
+                }
+
+            }
+            // If the pattern is 6 on startup ask the user to start over or quit
+            string readStart = File.ReadAllText(filePath).Trim();
+            if (readStart == "6")
+            {
+                MessageBox.Show("YOU HAVE WON ALL PATTERNS! CONGRATS! Exit now or Click Restart to start from the beginning!");
+                DealBtn.Visible = false;
+                RestartBtn.Size = DealBtn.Size;
+                RestartBtn.Location = DealBtn.Location;
+                RestartBtn.Visible = true;
+            }
         }
+
         private void InitializeValueDropdowns()
         {
             string[] values = { "2", "3", "4", "5", "6", "7", "8", "9", "10", "J", "Q", "K", "A" };
@@ -176,6 +197,15 @@ namespace CS4500HW1
             }
         }
 
+        private void restart(object sender, EventArgs e)
+        {
+            ClearAllSelectionsAndDropdowns();
+            string numStr = File.ReadAllText(filePath).Trim();
+            int num = 0;
+            File.WriteAllText(filePath, num.ToString());
+            RestartBtn.Visible = false;
+            DealBtn.Visible = true;
+        }
 
         private void quit_Click(object sender, EventArgs e)
         {
@@ -236,7 +266,7 @@ namespace CS4500HW1
 
             using (StreamReader reader = new StreamReader(filePath))
             {
-                
+                // Switch Statement for checking pattern and enforcing it.
                 switch (reader.ReadLine().Trim())
                 {
                     
@@ -361,12 +391,18 @@ namespace CS4500HW1
                         break;
                     case "6":
                         // Winner!
+                        MessageBox.Show("YOU HAVE WON ALL PATTERNS! CONGRATS! Exit now or Click Restart to start from the beginning!");
+                        playSound();
+                        DealBtn.Visible = false;
+                        RestartBtn.Size = DealBtn.Size;
+                        RestartBtn.Location = DealBtn.Location;
+                        RestartBtn.Visible = true;
                         break;
                 }   
             }
 
 
-
+            deck.logFiles();
 
 
             if (won < 2)
@@ -381,12 +417,13 @@ namespace CS4500HW1
             } else
             {
                 MessageBox.Show("You Won! Press Next Pattern to move onto the next pattern or Quit to end here.\nProgress will be saved");
+                playSound();
                 NextPattern.Location = DealBtn.Location;
                 NextPattern.Size = DealBtn.Size;
                 DealBtn.Visible = false;
                 NextPattern.Visible = true;
 
-                
+                won = 0;
             }
             
 
@@ -395,20 +432,12 @@ namespace CS4500HW1
         private void NextPattern_Click(object sender, EventArgs e)
         {
             ClearAllSelectionsAndDropdowns();
-            using (StreamReader reader = new StreamReader(filePath))
-            {
-                int num = int.Parse(reader.ReadLine().Trim());
-
-                num++;
-
-                string numStr = num.ToString();
-
-
-                File.WriteAllText(filePath, numStr);
-                textBoxLog.Text = string.Empty;
-            }
-
-
+            string numStr = File.ReadAllText(filePath).Trim();
+            int num = int.Parse(numStr);
+            num++;
+            File.WriteAllText(filePath, num.ToString());
+            NextPattern.Visible = false;
+            DealBtn.Visible = true;
         }
 
         private void NextRoundBtn_Click(object sender, EventArgs e)
@@ -459,6 +488,7 @@ namespace CS4500HW1
 
 
         }
+
         // On Dealer Selection of liked cards, highlight the cards and tint them to ensure that the user knows which cards the dealers liked
         // Created by Noor and Kanaan
         private void HighlightCardPictureBox(PictureBox pictureBox, bool isRedCard)
@@ -555,6 +585,15 @@ namespace CS4500HW1
                 case 'S': return "Spades";
                 default: return null;
             }
+        }
+
+
+        // This is the code to play the sound of congrats
+        // The sound byte used for this was from https://pixabay.com/sound-effects/search/congrats/
+        private void playSound()
+        {
+            SoundPlayer congrats = new SoundPlayer(@Application.StartupPath + "tada-fanfare-a-6313.mp3");
+            congrats.Play();
         }
 
     }

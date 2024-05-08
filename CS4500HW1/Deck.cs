@@ -2,7 +2,7 @@
 // This subfile makes sure that four cards are selected before sending the information
 // for those four cards and the date over to the external file, CardsDealt.txt.
 // This subfile also makes sure that the image holds the correct image for the card.
-// Latest Revision: 03/21/2024 by Kanaan and Noor
+// Latest Revision: 04/11/2024 by Kanaan Sullivan
 using System;
 using System.Collections.Generic;
 using System.Reflection;
@@ -19,7 +19,7 @@ namespace CS4500HW1
         private List<Card> cards = new List<Card>();
         private Random random = new Random();
         string logPath = Application.StartupPath + "CardsDealt.txt";
-        string filePath = Application.StartupPath + "LastWon.txt";
+        
         string outlog = "";
         public string Outlog => outlog;
 
@@ -76,6 +76,7 @@ namespace CS4500HW1
         // Created by Kanaan
         public List<Card> DealSelectedCards(string[] selectedSuits, string[] selectedValues)
         {
+            string filePath = Application.StartupPath + "LastWon.txt";
             List<Card> dealtCards = new List<Card>();
             outlog = "";
             
@@ -191,6 +192,7 @@ namespace CS4500HW1
                                 }
                                 break;
                         }
+
                     }
                         
                 }
@@ -201,16 +203,9 @@ namespace CS4500HW1
                 }
             }
 
-            string[] items = outlog.Split(',');
-            Array.Sort(items);
-            outlog = "";
-            outlog = string.Join(',', items);
+            
 
-            // Log the cards dealt
-            using (StreamWriter sw = File.AppendText(logPath))
-            {
-                sw.WriteLine(outlog);
-            }
+            
 
             System.Diagnostics.Debug.WriteLine(outlog);
 
@@ -221,6 +216,19 @@ namespace CS4500HW1
             }
 
             return dealtCards;
+        }
+
+        public void logFiles()
+        {
+            // Log the cards dealt
+            using (StreamWriter sw = File.AppendText(logPath))
+            {
+                string[] items = outlog.Split(',');
+                Array.Sort(items);
+                outlog = "";
+                outlog = string.Join(',', items);
+                sw.WriteLine(outlog);
+            }
         }
 
         private string MapFaceCardValue(string value)
